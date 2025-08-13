@@ -1,0 +1,28 @@
+/* @import url(); */
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html,
+body {
+ font-size: 10px;
+ line-height: 1.5;
+ letter-spacing: -0.23px;
+ font-family: "arial", sans-serif;
+ overflow-x: hidden;
+}
+ul,
+ol,
+li {
+ list-style: none;
+}
+a {
+ text-decoration: none;
+ color: #000;
+}
+img {
+ border: 0;
+ vertical-align: middle;
+}

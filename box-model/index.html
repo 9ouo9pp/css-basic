@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>박스 모델</title>
+  <style>
+   /* * {
+    box-sizing: border-box;
+   } */
+   div {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    /* border: 20px solid violet; */
+    /* border-style: outset; */
+    /* border-width: 10px 20px 5px 40px; */
+    /* border-color: blue; */
+    border-radius: 20px;
+    background-color: #ccc;
+    margin: 20px;
+   }
+   .box1 {
+   }
+   .box2 {
+    box-sizing: border-box;
+    box-shadow: 10px 20px 5px 20px blue;
+    /* box-shadow: inset 10px 20px 5px 20px blue; */
+   }
+  </style>
+ </head>
+ <body>
+  <div class="box1">
+   <span>UIUX 반응형 웹디자인</span>
+  </div>
+  <div class="box2">
+   <span>UIUX 웹 퍼블리싱</span>
+  </div>
+ </body>
+</html>

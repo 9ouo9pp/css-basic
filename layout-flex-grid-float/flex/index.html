@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>플렉스 박스 레이아웃</title>
+  <style>
+   .flex-container {
+    /* width: 1000px; */
+    height: 500px;
+    padding: 5px;
+    background-color: #ddd;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* align-items: baseline; */
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    /* align-content: space-around; */
+   }
+   .flex-item {
+    margin: 5px;
+    padding: 20px 100px;
+    background-color: #333;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+   }
+   .flex-item:nth-of-type(1) {
+    /* align-self: flex-start; */
+   }
+   .flex-item:nth-of-type(2) {
+    /* align-self: flex-end; */
+   }
+   .flex-item:nth-of-type(3) {
+    /* align-self: center; */
+   }
+   .flex-item:nth-of-type(4) {
+    /* align-self: stretch; */
+   }
+   .flex-item:nth-of-type(5) {
+    /* align-self: baseline; */
+   }
+  </style>
+ </head>
+ <body>
+  <div class="flex-container">
+   <div class="flex-item">1</div>
+   <div class="flex-item">2</div>
+   <div class="flex-item">3</div>
+   <div class="flex-item">4</div>
+   <div class="flex-item">5</div>
+   <div class="flex-item">6</div>
+   <div class="flex-item">7</div>
+   <div class="flex-item">8</div>
+   <div class="flex-item">9</div>
+   <div class="flex-item">10</div>
+  </div>
+ </body>
+</html>

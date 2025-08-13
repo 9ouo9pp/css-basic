@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>선택자</title>
+  <style>
+   h1 {
+    position: relative;
+   }
+   h1:hover {
+    color: red;
+   }
+   h1::before {
+    content: "";
+    color: green;
+    display: block;
+    width: 200px;
+    height: 4px;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   }
+   h1::after {
+    content: "HOT";
+    border-radius: 4px;
+    background-color: red;
+    font-size: 16px;
+    color: #fff;
+   }
+  </style>
+ </head>
+ <body>
+  <h1>Hello</h1>
+ </body>
+</html>
